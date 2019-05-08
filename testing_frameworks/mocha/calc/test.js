@@ -9,3 +9,7 @@ it('should return true', () => {
 it('should add negative number', () => {
     expect(operations.add(-2, -3)).to.be.equal(-5);
 });
+
+it('should be able to subtract two nums', () => {
+    expect(operations.subtract(-9, -7)).to.be.equal(-2);
+});
